@@ -18,7 +18,7 @@ tags:
 
 # 卡池信息
 
-![kachi](../../public/assets/img/Screenshot_2022-07-02-20-15-42-16.jpg)
+![kachi](img/Screenshot_2022-07-02-20-15-42-16.jpg)
 
 - 上半：万叶+可莉
 - 下半：肖宫
@@ -27,7 +27,7 @@ tags:
 
 1. 追想练行
 
-   ![Screenshot_2022-07-02-20-24-35-27.jpg](../../public/assets/img/Screenshot_2022-07-02-20-24-35-27.jpg)
+   ![Screenshot_2022-07-02-20-24-35-27.jpg](img/Screenshot_2022-07-02-20-24-35-27.jpg)
 
    1. 护航
    2. 急袭
@@ -37,13 +37,13 @@ tags:
 
 3. 恒动械画
 
-   ![hua](../../public/assets/img/Screenshot_2022-07-02-20-30-11-46.jpg)
+   ![hua](img/Screenshot_2022-07-02-20-30-11-46.jpg)
    
 # 其他信息
 1. 迪卢克新皮肤
 
-   ![diluc](../../public/assets/img/Screenshot_2022-07-02-20-28-24-04.jpg)
+   ![diluc](img/Screenshot_2022-07-02-20-28-24-04.jpg)
 
 2. 菲谢尔新皮肤
 
-   ![feixier](../../public/assets/img/Screenshot_2022-07-02-20-26-13-94.jpg)
+   ![feixier](img/Screenshot_2022-07-02-20-26-13-94.jpg)
