@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 落叶飘零
+tagline: A Blog About LYPL
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
