@@ -4,8 +4,8 @@ module.exports = {
       lang: 'zh-CN'
     }
    },
-  title: "vuepress-theme-reco",
-  description: 'A simple and beautiful vuepress blog theme .',
+  title: "LYPL Blog",
+  description: 'A Blog About LYPL.',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -92,7 +92,7 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: '落叶飘零',
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号
