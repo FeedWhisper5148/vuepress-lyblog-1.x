@@ -52,8 +52,8 @@ module.exports = {
     sidebar: {
       '/docs/theme-reco/': [
         '',
-        'theme',
-        'plugin',
+        'genshin',
+        'yunzaibot',
         'api'
       ]
     },  
