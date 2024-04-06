@@ -1,11 +1,10 @@
 ---
-title: 区分VR、AR与MR
-date: '2024-4-6 15:52:00'
+title: 测试图片的显示
+date: '2024-4-6 13:48:00'
 sidebar: 'auto'
 categories:
- - 科普
+ - 其他
 tags:
- - 科技
- - 文心一言
+ - tag1
 ---
-![测试图片](img/test.jpg)
+![测试图片](https://raw.githubusercontent.com/FeedWhisper5148/vuepress-lyblog-1.x/main/docs/theme-reco/img/test.jpg)
