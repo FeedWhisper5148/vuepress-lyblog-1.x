@@ -3,7 +3,7 @@ title: 自由之翼下的规范之锚
 date: '2024-4-7 13:26:00'
 sidebar: 'auto'
 categories:
- - 素材
+ - 文章
 tags:
  - 语文
  - 文心一言
