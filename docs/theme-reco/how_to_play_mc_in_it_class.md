@@ -8,7 +8,7 @@ tags:
  - Minecraft
 ---
 ## 一、如何运行Minecraft？
-- 首先，微机室的电脑为Windows7系统，没有**Microsoft Store**，也就无法运行**Minecraft 基岩版**，只能运行**Minecraft Java版**
+- 首先，微机室的电脑为**Windows7**系统，没有**Microsoft Store**，也就无法运行**Minecraft 基岩版**，只能运行**Minecraft Java版**
 - 32位操作系统最高只能运行Java8的32位版本，更高的Java版本已经不再支持32位系统，Java8最高支持的Minecraft版本为1.16
 - 由于微机室没有网络，且确少.NET模块，所以不方便运行HMCL和PCL2第三方启动器，可使用HMCL启动器的生成启动脚本功能生成一个批处理脚本
 - 下载Java8的32为版本，并安装，然后在**Program Files**文件夹里面找到Java文件夹并将其复制到游戏根目录里，作为Minecraft运行所需的Java环境
@@ -31,7 +31,7 @@ java -Xms1G -Xmx1G -jar spigot-1.16.2.jar
 - 在服务端的控制台上输入**op 玩家名**即可授予某玩家管理员权限，也可使用**gamerule keepInventory true**命令打开死亡不掉落
 ## 三、如何保存存档？
 由于微机室里的电脑都有还原程序，重启电脑后系统会被还原，因此需要将服务端所有文件压缩并复制到U盘里，下次游玩只需再次运行服务端启动脚本
-附：HMCL启动器生成的客户端启动脚本
+## 附：HMCL启动器生成的客户端启动脚本
 ```shell
 @echo off
 set APPDATA=.minecraft
@@ -44,4 +44,4 @@ set INST_JAVA=Java\bin\java.exe
 Java\bin\java.exe -Xmx1024m -Dfile.encoding=GB18030 -Dsun.stdout.encoding=GB18030 -Dsun.stderr.encoding=GB18030 -Djava.rmi.server.useCodebaseOnly=true -Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -Dlog4j.configurationFile=.minecraft\versions\1.16.2\log4j2.xml -Dminecraft.client.jar=.minecraft\versions\1.16.2\1.16.2.jar -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -Xss1m -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Djava.library.path=.minecraft\versions\1.16.2\natives-windows-x86 -Dminecraft.launcher.brand=HMCL -Dminecraft.launcher.version=3.5.5 -cp .minecraft\libraries\com\mojang\patchy\1.3.9\patchy-1.3.9.jar;.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar;.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;.minecraft\libraries\com\ibm\icu\icu4j\66.1\icu4j-66.1.jar;.minecraft\libraries\com\mojang\javabridge\1.0.22\javabridge-1.0.22.jar;.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;.minecraft\libraries\io\netty\netty-all\4.1.25.Final\netty-all-4.1.25.Final.jar;.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar;.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar;.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;.minecraft\libraries\com\mojang\brigadier\1.0.17\brigadier-1.0.17.jar;.minecraft\libraries\com\mojang\datafixerupper\4.0.26\datafixerupper-4.0.26.jar;.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;.minecraft\libraries\com\mojang\authlib\1.6.25\authlib-1.6.25.jar;.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;.minecraft\libraries\it\unimi\dsi\fastutil\8.2.1\fastutil-8.2.1.jar;.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar;.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar;.minecraft\libraries\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2.jar;.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2.jar;.minecraft\libraries\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2.jar;.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2.jar;.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2.jar;.minecraft\libraries\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2.jar;.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2.jar;.minecraft\libraries\com\mojang\text2speech\1.11.3\text2speech-1.11.3.jar;.minecraft\versions\1.16.2\1.16.2.jar net.minecraft.client.main.Main --username FeedWhisper5148 --version 1.16.2 --gameDir .minecraft --assetsDir .minecraft\assets --assetIndex 1.16 --uuid ef1c7b9202813aa7bca2595999e99c16 --accessToken 94218875a861474d997da5bd9bc3bac0 --userType msa --versionType "HMCL 3.5.5" --width 854 --height 480
 pause
 ```
-以上脚本中FeedWhisper5148为用户名，可对该玩家名进行修改
+以上脚本中**FeedWhisper5148**为用户名，可对该玩家名进行修改
