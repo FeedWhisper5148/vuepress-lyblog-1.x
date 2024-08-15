@@ -4,7 +4,7 @@ date: '2024-8-15 12:29:00'
 sidebar: 'auto'
 categories:
  - 文章
- tags:
+tags:
  - 语文
  - 文心一言
 ---
